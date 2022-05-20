@@ -1,0 +1,223 @@
+
+body{
+    background-color:rgb(99, 100, 100);
+}
+main{
+    width: 1024px;
+    background-color:rgb(245, 231, 231);
+    margin: 0 auto;
+
+
+}
+
+header{
+    height:600px;
+    background-image: url(../image/angel-jimenez.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgba(248, 237, 237, 0.966);
+    padding: 300px 0 0 0 ;
+    
+}
+
+.flotar{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.flotar img{
+    width:70%;
+}
+
+.img2{
+    float: left;
+    width: 50%;
+    text-align:center;
+}
+
+.img2 img{
+    width:70%;  
+}
+
+.texto1{
+    float: left;
+    margin: 0 0 0 83px;
+}
+
+.texto2{
+    float: right;
+    margin-top:20px;
+}
+
+
+#guitarra{
+    height:450px;
+    background-image: url(../image/john-raptis.png );
+    background-size: cover;
+}
+
+.clear{
+    clear: both;
+}
+
+table{
+    caption-side:bottom;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+   
+}
+
+
+
+
+
+footer{
+    display:flex;
+    background-color: rgb(255, 60, 86);
+}
+
+.texto3{
+    color:white;
+    float:right;
+}
+button{
+    border-radius: 100px;
+    background:rgb(255, 59, 92);
+}
+footer p {
+    color:white;
+}
+
+.tabla{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+.email{
+    float: right;
+    margin-right: 30px;
+}
+.copy{
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+
+    main{width: 992px}
+
+    .texto1{
+        float: left;
+        margin: 0 0 0 83px;
+    }
+    
+    .texto2 {
+        float: right;
+        margin: 0 80px 0 0;
+}
+
+
+    .texto3{
+        margin: 0 52px 0 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px){
+    main{width:768px}
+    header {
+        height: 405px;}
+    .texto1{
+        width:300px;
+    }
+    .texto2{
+        width:300px;
+    }
+}
+
+@media(max-width:600px){
+    main{width:350px;}
+
+    header {
+        height: 168px;   
+    }
+
+    .flotar{
+        width:100%;
+    }
+    h1{
+        padding: 75px 0 0 0;
+    }
+    .texto1{
+        margin: 0px;
+    }
+    .img2{
+
+        width: 100%;
+
+    }
+    .texto2{
+        margin: 0;
+    }
+    .texto3{
+        margin: 0;
+    }
+
+
+    .padre1{
+        float:none;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .padre2{
+        float:none;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+    }
+    #guitarra{
+        display:flex;
+        align-items: center;
+    }
+    table{width: 400px;}
+    footer{
+        flex-direction: column;
+        display:flex;
+    }
+    footer ul li{
+        
+        list-style: none;
+    }
+    .copy{
+        float:none;
+    }
+    .email{
+        float:none;
+        margin-left: 30px;
+    }
+}
+
+
+
+
